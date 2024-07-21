@@ -148,10 +148,5 @@ https://discord.com/
 
 ---
 
-#### Contribution:
-
-Contributions and feature requests are welcome! If you encounter any issues or have ideas for improvement, feel free to open an issue or submit a pull request.
-
-
 
 <h4 align="center"> If you find this GitHub repo useful, please consider giving it a star! ⭐️ </h4> 
