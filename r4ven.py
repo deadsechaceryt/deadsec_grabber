@@ -47,6 +47,7 @@ banner = r'''
  / _` / -_) _` / _` (_-</ -_) _| / _` | '_/ _` | '_ \ '_ \/ -_) '_|
  \__,_\___\__,_\__,_/__/\___\__| \__, |_| \__,_|_.__/_.__/\___|_|  
                                  |___/                            
+CREATED BY DEADSECHACKER 
 Track device location, and IP address, and capture a photo with device details.
 
 '''
