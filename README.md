@@ -1,24 +1,3 @@
-<p align="center">
-    <a href="https://spyboy.in/twitter">
-      <img src="https://img.shields.io/badge/-TWITTER-black?logo=twitter&style=for-the-badge">
-    </a>
-    &nbsp;
-    <a href="https://spyboy.in/">
-      <img src="https://img.shields.io/badge/-spyboy.in-black?logo=google&style=for-the-badge">
-    </a>
-    &nbsp;
-    <a href="https://spyboy.blog/">
-      <img src="https://img.shields.io/badge/-spyboy.blog-black?logo=wordpress&style=for-the-badge">
-    </a>
-    &nbsp;
-    <a href="https://spyboy.in/Discord">
-      <img src="https://img.shields.io/badge/-Discord-black?logo=discord&style=for-the-badge">
-    </a>
-  
-</p>
-
-<img width="100%" align="centre" src="https://github.com/spyboy-productions/r4ven/blob/main/snapshots/dsad.png" />
-
 The tool hosts a fake website which uses an iframe to display a legit website and, if the target allows it, it will fetch the Gps location `(latitude and longitude)` of the target, capture multiple pictures of the target along with `IP Address` and `Device Information`.
 
 <h4 align="center"> This tool is a Proof of Concept and is for Educational Purposes Only. </h4> 
@@ -103,16 +82,16 @@ Requirements:
 ---
 
 ```
-git clone https://github.com/spyboy-productions/r4ven.git
+https://github.com/deadsechaceryt/deadsec_grabber
 ```
 ```
-cd r4ven
+cd deadsec_grabber
 ```
 ```
 pip3 install -r requirements.txt
 ```
 ```
-python3 r4ven.py
+python3 deadsec_grabber.py
 ```
 
 `NOTE:` If you're not going to use `localhost` `(http://127.0.0.1:8000/image)`
@@ -123,16 +102,16 @@ OR
 
 Please use the `-t` flag to choose a different URL.
 
-Use the following command to make r4ven executable:
+Use the following command to make deadsec_grabber executable:
 
 ```
-chmod +x r4ven.py
+chmod +x deadsec_grabber.py
 ```
 ```
-python3 r4ven.py [-t target] [-p port]
+python3 deadsec_grabber.py [-t target] [-p port]
 ```
 
-**Example:** `python3 r4ven.py -t https://replit.com/myproject/images -p 8080`
+**Example:** `python3 deadsec_grabber.py -t https://replit.com/myproject/images -p 8080`
 
 ---
 
@@ -173,27 +152,6 @@ https://discord.com/
 
 Contributions and feature requests are welcome! If you encounter any issues or have ideas for improvement, feel free to open an issue or submit a pull request.
 
-#### 😴🥱😪💤 ToDo:
 
-- port forward directly
-
-Use trycloudflare to give web URL https://try.cloudflare.com/ https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/do-more-with-tunnels/trycloudflare/
-or use these https://tunnelmole.com/ https://github.com/robbie-cahill/tunnelmole-service
-
-- Mask port forwarded URL using our tool Facad1ng
-- Give the option to choose what you want 1. track location 2. camera access 3. just IP and device info 4. all of it
-- PHP code to host a website without Python
-- Iframe can be warned ..make a phishing template 
-
-#### 💬 If having an issue [Chat here](https://discord.gg/ZChEmMwE8d)
-[![Discord Server](https://discord.com/api/guilds/726495265330298973/embed.png)](https://discord.gg/ZChEmMwE8d)
-
-### ⭔ Snapshots
----
-
-<img width="100%" align="centre" src="https://github.com/spyboy-productions/r4ven/blob/main/snapshots/sadas.png" />
-<img width="100%" align="centre" src="https://github.com/spyboy-productions/r4ven/blob/main/snapshots/sdas.png" />
-<img width="100%" align="centre" src="https://github.com/spyboy-productions/r4ven/blob/main/snapshots/dasdas.png" />
-<img width="100%" align="centre" src="https://github.com/spyboy-productions/r4ven/blob/main/snapshots/wdad.png" />
 
 <h4 align="center"> If you find this GitHub repo useful, please consider giving it a star! ⭐️ </h4> 
